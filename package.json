@@ -1,0 +1,27 @@
+{
+  "name": "css-grid-layout-with-named-grid-lines",
+  "version": "1.0.0",
+  "description": "An example of CSS grid layout using named grid lines",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnricoMassoneDeltatre/css-grid-layout-with-named-grid-lines.git"
+  },
+  "keywords": [
+    "CSS",
+    "grid-layout",
+    "css-grid-layout"
+  ],
+  "author": "Enrico Massone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnricoMassoneDeltatre/css-grid-layout-with-named-grid-lines/issues"
+  },
+  "homepage": "https://github.com/EnricoMassoneDeltatre/css-grid-layout-with-named-grid-lines#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
