@@ -42,3 +42,103 @@ nav {
   grid-column: right;
   grid-row: 4 / 5;
 }
+
+.page-heading {
+  margin: 0;
+}
+
+.site-nav {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  border-radius: 0.2em;
+  padding: 0.5em;
+  background-color: #5f4b44;
+}
+
+.site-nav > li + li {
+  margin-left: 1.5em;
+}
+
+.site-nav > .nav-right {
+  margin-left: auto;
+}
+
+.site-nav > li > a {
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background-color: #cc6b5a;
+  color: white;
+}
+
+.tile {
+  background-color: white;
+  padding: 1.5em;
+}
+
+.tile > :first-child {
+  margin-top: 0;
+}
+
+.tile * + * {
+  margin-top: 1.5em;
+}
+
+.login-form h3 {
+  margin-top: 0;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.login-form input:not([type="radio"]):not([type="checkbox"]) {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.login-form button {
+  border: 1px solid #cc6b5a;
+  background-color: white;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.cost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.7;
+}
+
+.cost > span {
+  margin-top: 0;
+}
+
+.cost-currency {
+  font-size: 2rem;
+}
+
+.cost-dollars {
+  font-size: 4rem;
+}
+
+.cost-cents {
+  font-size: 1.5rem;
+  align-self: flex-start;
+}
+
+.cta-button {
+  display: block;
+  background-color: #cc6b5a;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  color: white;
+}
